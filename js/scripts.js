@@ -2,11 +2,18 @@ $(document).ready(function() {
   $("#questionaire").submit(function(event){
     event.preventDefault();
 
-    var answer1 = $("input:radio[name=question1]:checked").val();
-    var answer2 = $("input:radio[name=question2]:checked").val();
-    var answer3 = $("input:radio[name=question3]:checked").val();
-    var answer4 = $("input:radio[name=question4]:checked").val();
-    var answer5 = $("input:radio[name=question5]:checked").val();
+    var frontOrBack = $("input:radio[name=question1]:checked").val();
+    var webOrSoftware = $("input:radio[name=question2]:checked").val();
+    var businessOrAndroid = $("input:radio[name=question3]:checked").val();
+    var startupOrEstablished = $("input:radio[name=question4]:checked").val();
+    var mobileOrEnterprise = $("input:radio[name=question5]:checked").val();
+
+    if(frontOrBack === "front"){
+      $(".suggested-track").text("Design");
+      $("#class-link").attr("href", "https://www.epicodus.com/design");
+    } else{
+
+    }
 
     $("#suggestion").show();
   });
