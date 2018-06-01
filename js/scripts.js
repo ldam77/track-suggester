@@ -8,6 +8,7 @@ $(document).ready(function() {
     var answer4 = $("input:radio[name=question4]:checked").val();
     var answer5 = $("input:radio[name=question5]:checked").val();
 
+    $("#suggestion").show();
   });
 
 });

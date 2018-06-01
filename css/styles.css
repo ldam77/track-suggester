@@ -1,0 +1,8 @@
+#suggestion {
+  display: none;
+}
+
+.highlight {
+  font-weight: bold;
+  color: red;
+}
