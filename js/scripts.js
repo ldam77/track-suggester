@@ -7,6 +7,7 @@ $(document).ready(function() {
     var businessOrAndroid = $("input:radio[name=question3]:checked").val();
     var startupOrEstablished = $("input:radio[name=question4]:checked").val();
     var mobileOrEnterprise = $("input:radio[name=question5]:checked").val();
+    // mobileOrEnterprise is currently not used. May be use for future suggestion
 
     if(frontOrBack === "front"){
       $(".suggested-track").text("Design");

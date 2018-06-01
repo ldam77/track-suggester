@@ -6,3 +6,11 @@
   font-weight: bold;
   color: red;
 }
+
+h1{
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
