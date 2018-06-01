@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $("button#show-question").click(function(){
+    $("#questionaire").fadeToggle();
+  });
+
   $("#questionaire").submit(function(event){
     event.preventDefault();
 

@@ -2,6 +2,10 @@
   display: none;
 }
 
+#questionaire {
+  display: none;
+}
+
 .highlight {
   font-weight: bold;
   color: red;
